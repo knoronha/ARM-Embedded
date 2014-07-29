@@ -1,0 +1,12 @@
+main.o: main.c
+main.o: GLCD.h
+main.o: LPC17xx.h
+main.o: core_cm3.h
+main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+main.o: system_LPC17xx.h
+main.o: UTILITIES.h
+main.o: type.h
+main.o: uart.h
+main.o: dac.h
+main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h

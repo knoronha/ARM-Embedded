@@ -1,0 +1,24 @@
+*** Creating Trace Output File '.\FLASH\dac.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_lpc17xx.o"'
+### List of Objects: adding '".\flash\system_lpc17xx.o"'
+### List of Objects: adding '".\flash\dac.o"'
+### List of Objects: adding '".\flash\dactest.o"'
+### List of Objects: adding '".\flash\dma.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\flash\startup_lpc17xx.o" ".\flash\system_lpc17xx.o" ".\flash\dac.o" ".\flash\dactest.o" ".\flash\dma.o" 
+--strict --scatter ".\FLASH\dac.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FLASH\dac.map" -o .\FLASH\dac.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\FLASH\dac.axf'
+### ADS-LD Command File: '.\FLASH\dac.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\FLASH\dac.lnp', Handle=0x00000244
+### Writing '.lnp' file
+### ADS-LD Command file '.\FLASH\dac.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,10 @@
+kenneth_util.o: kenneth_util.c
+kenneth_util.o: C:\Keil470\ARM\ARMCC\bin\..\include\stdio.h
+kenneth_util.o: C:\Keil470\ARM\Inc\NXP\LPC17xx\LPC17xx.H
+kenneth_util.o: C:\Keil470\ARM\CMSIS\Include\core_cm3.h
+kenneth_util.o: C:\Keil470\ARM\ARMCC\bin\..\include\stdint.h
+kenneth_util.o: C:\Keil470\ARM\CMSIS\Include\core_cmInstr.h
+kenneth_util.o: C:\Keil470\ARM\CMSIS\Include\core_cmFunc.h
+kenneth_util.o: C:\Keil470\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+kenneth_util.o: GLCD.h
+kenneth_util.o: KEN_UTILS.h

@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "system_lpc17xx.o" "main.o" "glcd_spi_lpc1700.o" "kenneth_util.o" "dac.o" 
+--strict --scatter "thegame2.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\thegame2.map" -o thegame2.axf

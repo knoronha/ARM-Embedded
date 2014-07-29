@@ -1,0 +1,50 @@
+Dependencies for Project 'thegame2', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x5164BB3A)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil470\ARM\RV31\INC -I C:\Keil470\ARM\CMSIS\Include -I C:\Keil470\ARM\Inc\NXP\LPC17xx --list "startup_LPC17xx.lst" --xref -o "startup_LPC17xx.o" --depend "startup_LPC17xx.d")
+F (.\system_LPC17xx.c)(0x5164BB3C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil470\ARM\RV31\INC -I C:\Keil470\ARM\CMSIS\Include -I C:\Keil470\ARM\Inc\NXP\LPC17xx -o "system_lpc17xx.o" --omf_browse "system_lpc17xx.crf" --depend "system_lpc17xx.d")
+I (C:\Keil470\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA2630)
+I (C:\Keil470\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x508810AA)
+I (C:\Keil470\ARM\CMSIS\Include\core_cm3.h)(0x5088124E)
+I (C:\Keil470\ARM\CMSIS\Include\core_cmInstr.h)(0x5088124E)
+I (C:\Keil470\ARM\CMSIS\Include\core_cmFunc.h)(0x5088124E)
+I (C:\Keil470\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508810AA)
+F (.\main.c)(0x51659772)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil470\ARM\RV31\INC -I C:\Keil470\ARM\CMSIS\Include -I C:\Keil470\ARM\Inc\NXP\LPC17xx -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (GLCD.h)(0x5164BB26)
+I (C:\Keil470\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x508810AA)
+I (C:\Keil470\ARM\CMSIS\Include\core_cm3.h)(0x5088124E)
+I (C:\Keil470\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA2630)
+I (C:\Keil470\ARM\CMSIS\Include\core_cmInstr.h)(0x5088124E)
+I (C:\Keil470\ARM\CMSIS\Include\core_cmFunc.h)(0x5088124E)
+I (C:\Keil470\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508810AA)
+I (KEN_UTILS.h)(0x5164BB34)
+I (type.h)(0x5164BB50)
+I (dac.h)(0x5164BB06)
+I (dma.h)(0x5164BB0C)
+F (.\GLCD_SPI_LPC1700.c)(0x5164BB28)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil470\ARM\RV31\INC -I C:\Keil470\ARM\CMSIS\Include -I C:\Keil470\ARM\Inc\NXP\LPC17xx -o "glcd_spi_lpc1700.o" --omf_browse "glcd_spi_lpc1700.crf" --depend "glcd_spi_lpc1700.d")
+I (C:\Keil470\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508810AA)
+I (C:\Keil470\ARM\CMSIS\Include\core_cm3.h)(0x5088124E)
+I (C:\Keil470\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA2630)
+I (C:\Keil470\ARM\CMSIS\Include\core_cmInstr.h)(0x5088124E)
+I (C:\Keil470\ARM\CMSIS\Include\core_cmFunc.h)(0x5088124E)
+I (C:\Keil470\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508810AA)
+I (GLCD.h)(0x5164BB26)
+I (Font_6x8_h.h)(0x5164BB26)
+I (Font_16x24_h.h)(0x5164BB26)
+F (.\kenneth_util.c)(0x51659772)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil470\ARM\RV31\INC -I C:\Keil470\ARM\CMSIS\Include -I C:\Keil470\ARM\Inc\NXP\LPC17xx -o "kenneth_util.o" --omf_browse "kenneth_util.crf" --depend "kenneth_util.d")
+I (C:\Keil470\ARM\ARMCC\bin\..\include\stdio.h)(0x50FA2630)
+I (C:\Keil470\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x508810AA)
+I (C:\Keil470\ARM\CMSIS\Include\core_cm3.h)(0x5088124E)
+I (C:\Keil470\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA2630)
+I (C:\Keil470\ARM\CMSIS\Include\core_cmInstr.h)(0x5088124E)
+I (C:\Keil470\ARM\CMSIS\Include\core_cmFunc.h)(0x5088124E)
+I (C:\Keil470\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508810AA)
+I (GLCD.h)(0x5164BB26)
+I (KEN_UTILS.h)(0x5164BB34)
+F (.\dac.c)(0x5164BB04)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil470\ARM\RV31\INC -I C:\Keil470\ARM\CMSIS\Include -I C:\Keil470\ARM\Inc\NXP\LPC17xx -o "dac.o" --omf_browse "dac.crf" --depend "dac.d")
+I (C:\Keil470\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508810AA)
+I (C:\Keil470\ARM\CMSIS\Include\core_cm3.h)(0x5088124E)
+I (C:\Keil470\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA2630)
+I (C:\Keil470\ARM\CMSIS\Include\core_cmInstr.h)(0x5088124E)
+I (C:\Keil470\ARM\CMSIS\Include\core_cmFunc.h)(0x5088124E)
+I (C:\Keil470\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508810AA)
+I (type.h)(0x5164BB50)
+I (dac.h)(0x5164BB06)

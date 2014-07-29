@@ -1,0 +1,25 @@
+*** Creating Trace Output File 'thegame2.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"glcd_spi_lpc1700.o"'
+### List of Objects: adding '"kenneth_util.o"'
+### List of Objects: adding '"dac.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "system_lpc17xx.o" "main.o" "glcd_spi_lpc1700.o" "kenneth_util.o" "dac.o" 
+--strict --scatter "thegame2.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\thegame2.map" -o thegame2.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'thegame2.axf'
+### ADS-LD Command File: 'thegame2.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'thegame2.lnp', Handle=0x000002FC
+### Writing '.lnp' file
+### ADS-LD Command file 'thegame2.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

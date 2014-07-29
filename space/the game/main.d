@@ -1,0 +1,12 @@
+main.o: main.c
+main.o: GLCD.h
+main.o: C:\Keil470\ARM\Inc\NXP\LPC17xx\LPC17xx.h
+main.o: C:\Keil470\ARM\CMSIS\Include\core_cm3.h
+main.o: C:\Keil470\ARM\ARMCC\bin\..\include\stdint.h
+main.o: C:\Keil470\ARM\CMSIS\Include\core_cmInstr.h
+main.o: C:\Keil470\ARM\CMSIS\Include\core_cmFunc.h
+main.o: C:\Keil470\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+main.o: KEN_UTILS.h
+main.o: type.h
+main.o: dac.h
+main.o: dma.h
